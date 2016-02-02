@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ServiceApp</string>
+    <string name="serviceButton">serviceToogleButton</string>
+    <string name="measurement_interval_key">MEASUREMENT_INTERVAL</string>
+    <string name="measurement_interval_title">Measurement interval [ms]</string>
+    <string name="measurement_interval_summary">Expected single vibration time</string>
+    <string name="settings_button">SETTINGS</string>
+    <string name="handler_interval_key">HANDLER_INTERVAL</string>
+    <string name="handler_interval_title">Measurement period [ms]</string>
+    <string name="handler_interval_summary">Minimum time before status change</string>
+    <string name="suspicion_threshold_key">SUSPICION_THRESHOLD</string>
+    <string name="suspicion_threshold_title">Suspicion threshold</string>
+    <string name="suspicion_threshold_summary">Vibrations number before changing status to \'occupied\'</string>
+    <string name="calm_periods_threshold_key">CALM_PERIODS_THRESHOLD</string>
+    <string name="calm_periods_threshold_title">Calm periods threshold</string>
+    <string name="calm_periods_threshold_summary">Number of periods before changing status to \'free\'</string>
+    <string name="vibration_rms_threshold_key">VIBRATION_RMS_THRESHOLD</string>
+    <string name="vibration_rms_threshold_title">Vibration intensity threshold</string>
+    <string name="vibration_rms_threshold_summary">Only higher intensity should be detected</string>
+</resources>
